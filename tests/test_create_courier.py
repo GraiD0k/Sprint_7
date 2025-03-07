@@ -27,7 +27,7 @@ class TestCreateCourier:
             assert response_error.status_code==409 and response_error.text == CreateLoginData.TEXT_CREATE_COURIER_409
 
     @allure.title('Создание курьера - не заполнен логин')
-    def test_create_courier_no_login_error(self, generate_random_string):
+    def test_create_courier_no_login_error(self,generate_random_string):
         login = ''
         password = generate_random_string
         first_name = generate_random_string
