@@ -5,7 +5,7 @@ import allure
 class CreateOrdersApi:
     @staticmethod
     @allure.step('Вызываем метод создания заказа')
-    def post_login_courier(first_name,last_name,address,metro_station,phone,rent_time,delivery_date,comment,color):
+    def post_create_order(first_name,last_name,address,metro_station,phone,rent_time,delivery_date,comment,color):
         payload = {
     "firstName": first_name,
     "lastName": last_name,

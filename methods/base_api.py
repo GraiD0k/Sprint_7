@@ -9,3 +9,10 @@ class BaseApi:
         payload = {"login":login,"password":password,"firstName":first_name}
         response = requests.post(Urls.URL_CREATE_COURIER,data=payload)
         return response
+
+    @staticmethod
+    @allure.step('Вызываем метод удаления курьера')
+    def delete_courier(courier_id):
+        response = requests.delete(Urls.URL_DELETE_COURIER+str(courier_id))
+        return response
+

@@ -1,2 +1,6 @@
 class CreateOrdersData:
     TEXT_CREATE_ORDERS_200 = 'track'
+    FIRST_ORDER = {'first_name': 'Тестировщик', 'last_name': 'Автоматизаторов', 'address': 'Konoha, 142 apt.','metro_station': 4, 'phone': '+7 800 555 35 35', 'rent_time': 100, 'delivery_date': '2000-01-01','comment': 'ПРИВЕЗИТЕ СКОРЕЕ мой товар', 'color': 'BLACK'}
+    SECOND_ORDER = {'first_name': 'Автоматизатор', 'last_name': 'Тестеров', 'address': 'Тест, Московская, д96, кв 666','metro_station': 12, 'phone': '8 800 666 36 36', 'rent_time': 69, 'delivery_date': '2025-10-10','comment': 'Не разбейте ничего', 'color': 'GREY'}
+    THIRD_ORDER = {'first_name': 'Тест', 'last_name': 'Лидов', 'address': 'Питер, Соляная, д6, кв 666/2','metro_station': 1, 'phone': '8 800 777 30 36', 'rent_time': 96, 'delivery_date': '2024-10-10','comment': 'Просто по красота', 'color': "'BLACK','GREY'"}
+    FOURTH_ORDER = {'first_name': 'Тест', 'last_name': 'Лидов', 'address': 'Питер, Соляная, д6, кв 666/2','metro_station': 1, 'phone': '8 800 777 30 36', 'rent_time': 96, 'delivery_date': '2024-10-10','comment': 'Просто по красота', 'color': ''}

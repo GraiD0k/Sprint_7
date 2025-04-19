@@ -1,5 +1,4 @@
 import allure
-import pytest
 from methods.get_orders_api import GetOrdersApi
 from data.get_order_data import GetOrdersData
 
