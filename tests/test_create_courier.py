@@ -8,7 +8,6 @@ from helpers.helpers import Random_string
 
 class TestCreateCourier:
 
-
     @allure.title('Создание курьера')
     def test_create_courier(self,courier_data):
         response = BaseApi.post_create_courier(courier_data['login'], courier_data['password'], courier_data['first_name'])
