@@ -2,7 +2,7 @@ import allure
 from methods.base_api import BaseApi
 from data.create_login_data import CreateLoginData
 import pytest
-from data.helpers import Random_string
+from helpers.helpers import Random_string
 
 
 
